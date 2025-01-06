@@ -423,3 +423,124 @@ let message: string = `I am ${age} years old.`;
 - **Strings** are a single sequence of characters, and they are immutable (you cannot change individual characters once the string is created).
 
 If you have any specific examples or deeper questions about them, feel free to ask!
+
+# 4) top 10 question in array and string
+
+Absolutely, Prakash! Here's a list of **top 10 basic questions** for **Arrays** and **Strings** that can help you kickstart your journey into solving **Data Structures and Algorithms (DSA)** problems. I'll provide the questions along with a brief idea on how you might approach solving them.
+
+### **Top 10 Basic Array Questions**
+
+1. **Find the largest element in an array**
+
+   - **Problem**: Given an array of integers, find the largest element.
+   - **Approach**: Iterate through the array, compare each element with the current maximum.
+
+2. **Find the second largest element in an array**
+
+   - **Problem**: Given an array of integers, find the second largest element.
+   - **Approach**: Iterate through the array, keep track of the largest and second largest values.
+
+3. **Find the sum of all elements in an array**
+
+   - **Problem**: Given an array of integers, find the sum of all elements.
+   - **Approach**: Iterate through the array and add each element to a cumulative sum.
+
+4. **Reverse an array**
+
+   - **Problem**: Reverse the order of elements in an array.
+   - **Approach**: Use two pointers — one at the start, one at the end — and swap elements.
+
+5. **Check if an array contains a duplicate element**
+
+   - **Problem**: Given an array of integers, check if any element appears more than once.
+   - **Approach**: Use a hash set or hash map to store visited elements and check for duplicates.
+
+6. **Find the missing number in an array of consecutive numbers**
+
+   - **Problem**: Given an array of consecutive numbers with one missing, find the missing number.
+   - **Approach**: Calculate the expected sum of the array and subtract the sum of the elements in the array.
+
+7. **Move all zeros to the end of an array**
+
+   - **Problem**: Given an array, move all the zeros to the end while maintaining the relative order of the non-zero elements.
+   - **Approach**: Use a two-pointer approach, one pointer to track the current non-zero element.
+
+8. **Find the frequency of elements in an array**
+
+   - **Problem**: Given an array, find the frequency of each element.
+   - **Approach**: Use a hash map or dictionary to store counts of elements.
+
+9. **Find the intersection of two arrays**
+
+   - **Problem**: Given two arrays, find the elements that appear in both arrays.
+   - **Approach**: Use a hash set or hash map to store elements from one array and then check which elements exist in the other array.
+
+10. **Rotate an array by `k` positions**
+
+- **Problem**: Given an array and a number `k`, rotate the array to the right by `k` positions.
+- **Approach**: Use array slicing or reverse the array in parts.
+
+---
+
+### **Top 10 Basic String Questions**
+
+1. **Reverse a string**
+
+   - **Problem**: Reverse a given string.
+   - **Approach**: Use pointers or built-in string functions to reverse the string.
+
+2. **Check if a string is a palindrome**
+
+   - **Problem**: Given a string, check if it is a palindrome (reads the same forwards and backwards).
+   - **Approach**: Compare characters from the start and end of the string.
+
+3. **Find the first non-repeated character in a string**
+
+   - **Problem**: Given a string, find the first character that does not repeat.
+   - **Approach**: Use a hash map to count character frequencies and find the first one with a count of 1.
+
+4. **Count the number of vowels in a string**
+
+   - **Problem**: Given a string, count how many vowels (a, e, i, o, u) it contains.
+   - **Approach**: Iterate through the string and check if each character is a vowel.
+
+5. **Check if two strings are anagrams**
+
+   - **Problem**: Given two strings, check if they are anagrams (contain the same characters with the same frequencies).
+   - **Approach**: Sort the strings or use a hash map to count characters in both strings.
+
+6. **Remove all spaces from a string**
+
+   - **Problem**: Given a string, remove all spaces.
+   - **Approach**: Iterate through the string and build a new string with non-space characters, or use built-in methods like `.replace()`.
+
+7. **Find the longest substring without repeating characters**
+
+   - **Problem**: Given a string, find the length of the longest substring with no repeating characters.
+   - **Approach**: Use the sliding window technique with a hash map to store character positions.
+
+8. **Convert a string to lowercase**
+
+   - **Problem**: Given a string, convert it to lowercase.
+   - **Approach**: Use built-in string methods like `.toLowerCase()`.
+
+9. **Find the substring of a given string**
+
+   - **Problem**: Given a string, find a specific substring (if present).
+   - **Approach**: Use the `.indexOf()` or `.includes()` method to check for a substring.
+
+10. **Find the longest common prefix of an array of strings**
+
+- **Problem**: Given an array of strings, find the longest common prefix among all strings.
+- **Approach**: Compare characters of each string at the same index, and stop when they differ.
+
+---
+
+### How to Approach These Questions:
+
+1. **Start small**: Begin with the easier problems (like reversing an array or string) and gradually move to more complex ones.
+2. **Practice often**: Keep solving problems on platforms like LeetCode, HackerRank, or CodeForces to improve your skills.
+3. **Understand the algorithms**: Understand the approach before coding, and analyze time/space complexity.
+4. **Build a strong foundation**: Make sure you are comfortable with basic operations, loops, and conditionals.
+
+Would you like to try solving one of these questions, or do you need help with a specific solution?
